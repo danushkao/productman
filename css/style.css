@@ -2,7 +2,7 @@
 
 body{
 	background: #eeeeee;
-	font: 300 24px/1.5 Roboto, sans-serif;
+	font: 400 18px/1.33 Roboto, sans-serif;
 	padding: 0 50px;
 }
 
@@ -157,3 +157,85 @@ textarea {
 
 }
 
+
+
+.ba-featured-product {
+	padding: 95px 72px 72px 72px;
+	background: white;
+	margin-top: 100px;
+}
+.ba-featured-product h2 {
+	font: 900 48px/1 Raleway, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 35px;
+	background: url("../img/underline.png") no-repeat bottom;
+	margin-bottom: 12px;
+}
+.ba-featured-product p {
+	max-width: 540px;
+	text-align: center;
+	font: 400 18px/1.5 Raleway, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 5px;
+}
+.ba-featured-product-link img {
+	display: block;
+	width: 100%;
+}
+.ba-featured-product-link {
+	font: 900 30px/1 Roboto, sans-serif;
+	color:#fff;
+	text-decoration: none;
+	position: relative;
+	display: block;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.ba-row + .ba-row {
+	margin-top: 35px;
+}
+.ba-work-description {
+	background: #e10011;
+	padding: 40px;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	opacity: 0;
+	margin: 0;
+}
+.ba-featured-product-link:hover .ba-work-description {
+	opacity: 1;
+}
+.ba-featured-product-active {
+	margin: 0;
+
+}
+.ba-work-description:after {
+	content: "";
+	border-bottom: 4px solid white;
+	width: 90px;
+	padding-bottom: 5px;
+
+}
+.ba-row {
+	margin-left: -35px;
+}
+[class*="ba-col-"] {
+	float: left;
+	padding-left: 35px;
+}
+.ba-col-33 {
+	width: 33%;
+}
+.ba-col-66 {
+	width: 66%;
+}
